@@ -1,0 +1,8 @@
+David = Employee.new("David", "TA", 10000, "Darren")
+Shawna = Employee.new("Shawna", "TA", 12000, "Darren")
+Darren = Manager.new("Darren", "TA Manager", 78000, "Ned", [David, Shawna])
+Ned = Manager.new("Ned", "Founder", 1000000, nil, [Darren, Shawna, David])
+
+Ned.bonus(5) # => 500_000
+Darren.bonus(4) # => 88_000
+David.bonus(3) # => 30_000

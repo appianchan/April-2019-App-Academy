@@ -8,12 +8,14 @@ class SuperComputerPlayer < ComputerPlayer
     # mark == :o ? evaluator = :x : evaluator = :o
     new_node = TicTacToeNode.new(game.board, mark)
     new_children = new_node.children
-
+    new_children
     new_children.each do |child|
       if child.winning_node?(mark)
         return child.prev_move_pos
       end       
     end
+
+    # there was an issue with our children method
 
     new_children.each do |child|
       if !child.losing_node?(mark)
