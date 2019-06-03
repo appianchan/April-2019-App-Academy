@@ -32,10 +32,11 @@ class Display
     end 
 
     def play_game
+        system "clear"
         loop do
             self.render
             @cursor.get_input
-            puts ""
+            system "clear"
         end
     end
 
