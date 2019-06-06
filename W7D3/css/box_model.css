@@ -1,0 +1,28 @@
+div {
+  width: 200px;
+  height: 200px;
+
+  padding: 50px 50px 50px 50px;
+  
+  border: 5px solid black;
+  overflow:auto; 
+
+}
+
+#first-div {
+  background-color: #39cccc;
+}
+
+#second-div {
+  background-color: #ff4136;
+  box-sizing: border-box;
+}
+
+#third-div{
+
+}
+
+p {
+  background-color: #7fdbff;
+
+}
