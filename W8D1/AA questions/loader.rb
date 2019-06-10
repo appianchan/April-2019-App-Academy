@@ -1,0 +1,6 @@
+require_relative 'Classes/QuestionsDatabase.rb'
+require_relative 'Classes/questions.rb'
+require_relative 'Classes/users.rb'
+require_relative 'Classes/question_follows.rb'
+require_relative 'Classes/question_likes.rb'
+require_relative 'Classes/replies.rb'
